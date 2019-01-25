@@ -1,0 +1,63 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1548417916374" stop="1548417916382">
+  <name>test_001</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1548417916374" status="passed" stop="1548417916377">
+      <name>Test_001.test_001_1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6024-MainThread"/>
+        <label name="host" value="PC-20150609NIOV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548417916377" status="passed" stop="1548417916377">
+          <name>我是test_001-1测试步骤名称</name>
+          <title>我是test_001-1测试步骤名称</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548417916379" status="passed" stop="1548417916380">
+      <name>Test_001.test_001_2</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6024-MainThread"/>
+        <label name="host" value="PC-20150609NIOV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548417916380" status="passed" stop="1548417916380">
+          <name>我是test_001-2测试步骤名称</name>
+          <title>我是test_001-2测试步骤名称</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548417916381" status="passed" stop="1548417916382">
+      <name>Test_001.test_001_3</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="6024-MainThread"/>
+        <label name="host" value="PC-20150609NIOV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548417916382" status="passed" stop="1548417916382">
+          <name>我是test_001-3测试步骤名称</name>
+          <title>我是test_001-3测试步骤名称</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
