@@ -1,0 +1,56 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1548409343163" stop="1548409343224">
+  <name>test_001</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1548409343163" status="passed" stop="1548409343167">
+      <name>Test_001.test_001_1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4124-MainThread"/>
+        <label name="host" value="PC-20150609NIOV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548409343167" status="passed" stop="1548409343167">
+          <name>我是test_001-1测试步骤名称</name>
+          <title>我是test_001-1测试步骤名称</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1548409343168" status="failed" stop="1548409343224">
+      <name>Test_001.test_001_2</name>
+      <failure>
+        <message>AssertionError: assert False</message>
+        <stack-trace>self = &lt;test_001.Test_001 object at 0x0000000003B71320&gt;
+
+    @allure.step(title='我是test_001-2测试步骤名称')
+    def test_001_2(self):
+        print("----&gt;test_001-2")
+&gt;       assert False
+E       assert False
+
+test_001.py:13: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="4124-MainThread"/>
+        <label name="host" value="PC-20150609NIOV"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1548409343169" status="failed" stop="1548409343171">
+          <name>我是test_001-2测试步骤名称</name>
+          <title>我是test_001-2测试步骤名称</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>
